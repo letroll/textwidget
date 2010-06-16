@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titreTexte">Text</string>
+    <string name="app_name">TextWidget</string>
+<string name="legendeTexte">Text to show</string>
+<string name="legendeCouleur">Color to show</string>
+<string name="titreCouleur">Color</string>
+<string name="choixCouleur">choose a color</string>
+<string name="hint">here the text you want displayed</string>
+</resources>

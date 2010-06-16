@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Options">	
+		<EditTextPreference 
+		android:key="text" 
+		android:title="@string/titreTexte" android:summary="@string/legendeTexte"/>
+		<Preference
+		android:key="couleur"
+		android:title="@string/titreCouleur" android:summary="@string/legendeCouleur"/>
+	
+		<ListPreference
+		           android:key="listPref"
+		           android:entries="@array/tailles"
+		           android:entryValues="@array/tailles_values" 
+				   android:defaultValue="2"
+		android:summary="liste des tailles possibles du texte" android:title="tailles possibles"/>
+
+	</PreferenceCategory>
+</PreferenceScreen>
